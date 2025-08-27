@@ -28,7 +28,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 50px;
+  padding: 10px 200px;
   background-color: var(--gray-100);
 }
 
@@ -47,10 +47,7 @@ body {
 }
 
 .nav-logo img{
-  width: 100px;
-}
-
-main {
+  width: 80px;
 }
 
 .hero {
@@ -98,9 +95,10 @@ main {
 
 .img-bg {
   position: absolute;
-  height: 250px;
+  height: 270px;
   width: 366.6px;
-  background-color: var(--gray-100);
+  background: #960f0f;
+  background: linear-gradient(180deg, rgba(150, 15, 15, 1) 17%, rgba(104, 6, 6, 1) 50%, rgba(0, 0, 0, 1) 100%);
   border-radius: 15%;
 }
 
